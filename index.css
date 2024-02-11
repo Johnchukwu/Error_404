@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(239, 229, 229);
+
+}
+#title{
+
+    font-size:large;
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 900;
+}
+#img img{
+        width: 50%; 
+        height:auto; 
+        margin-top: 6%;
+        padding-left:10%;
+    
+}
+#intro{
+    margin-left: 60%;
+    margin-top: -26%;
+    font-family: 'Protest Revolution', sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    margin-bottom:3%;
+    word-spacing: 5%;
+    font-weight: 400;
+    display: flex;
+}
+
+#set1{
+    word-spacing:5px;
+    margin-left: 60%;
+    margin-bottom:2%;
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 300;
+    display: flex;
+    
+    
+}
+button{
+    margin-left:60%;
+    background-color: rgba(33, 12, 12, 0.226);
+    color: rgb(31, 31, 6);
+
+}
+#btn{
+    padding: 20px 20px 20px 20px;
+}
+@media screen and (max-width:576px) {
+    #intro{
+        text-align: justify;
+        margin-left: 20%;
+        margin-top: 12%;
+    }
+    #set1{
+        text-align: justify;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+    button{
+        text-align: justify;
+        margin-left: 30%;
+        margin-top: 6%;
+    }
+    #img img{
+        margin-left: 18%;
+    }
+}
